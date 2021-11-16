@@ -1,0 +1,175 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Tianyang Guan",
+      "shifts": [{ "shiftId": "1" }, { "shiftId": "2 " }],
+      "invited": [{ "shiftId": "5" }, { "shiftId": "6" }]
+    },
+    {
+      "id": "2",
+      "name": "Raymond",
+      "shifts": [{ "shiftId": "4" }],
+      "invited": [{ "shiftId": "5" }, { "shiftId": "7" }]
+    },
+    {
+      "id": "3",
+      "name": "Vincent",
+      "shifts": [{ "shiftId": "2" }, { "shiftId": "6" }],
+      "invited": [{ "shiftId": "6" }, { "shiftId": "8" }]
+    },
+    {
+      "id": "4",
+      "name": "Alex",
+      "shifts": [{ "shiftId": "6" }, { "shiftId": "5" }],
+      "invited": [{ "shiftId": "5" }, { "shiftId": "6" }]
+    }
+  ],
+  "hospital": [
+    {
+      "hospitalID": "0",
+      "hospitalName": "a nice hospital",
+      "address": "10 Nice Street, 2000 NSW Sydney",
+      "reviewStar": "4"
+    },
+    {
+      "hospitalID": "1",
+      "hospitalName": "the best hospital",
+      "address": "8 Best Street, 2000 NSW Sydney",
+      "reviewStar": "5"
+    }
+  ],
+
+  "shift": [
+    {
+      "shiftId": "1",
+      "name": "shift1",
+      "hospital_id": "0",
+      "shift_type": "1",
+      "date": "14 Nov 2021",
+      "time": "07:00AM - 07:00PM",
+      "pay": "$40.25/hr",
+      "type": "Intensive Care General"
+    },
+    {
+      "shiftId": "2",
+      "name": "shift2",
+      "hospital_id": "1",
+      "shift_type": "1",
+      "date": "15 Nov 2021",
+      "time": "05:00PM - 10:00PM",
+      "pay": "$40.25/hr",
+      "type": "Critical Care General"
+    },
+    {
+      "shiftId": "3",
+      "name": "shift3",
+      "hospital_id": "1",
+      "shift_type": "2",
+      "date": "16 Nov 2021",
+      "time": "07:00AM - 07:00PM",
+      "pay": "$48/hr",
+      "type": "Intensive Care General"
+    },
+    {
+      "shiftId": "4",
+      "name": "shift4",
+      "hospital_id": "0",
+      "shift_type": "2",
+      "date": "17 Nov 2021",
+      "time": "07:00AM - 07:00PM",
+      "pay": "$42.25/hr",
+      "type": "Intensive Care General"
+    },
+    {
+      "shiftId": "5",
+      "name": "shift5",
+      "hospital_id": "0",
+      "shift_type": "1",
+      "date": "22 Nov 2021",
+      "time": "09:00AM - 09:00PM",
+      "pay": "$45/hr",
+      "type": "Critical Care General"
+    },
+    {
+      "shiftId": "6",
+      "name": "shift6",
+      "hospital_id": "0",
+      "shift_type": "1",
+      "date": "23 Nov 2021",
+      "time": "10:00AM - 10:00PM",
+      "pay": "$50.25/hr",
+      "type": "Critical Care General"
+    },
+    {
+        "shiftId": "7",
+        "name": "shift7",
+        "hospital_id": "0",
+        "shift_type": "1",
+        "date": "25 Nov 2021",
+        "time": "09:00AM - 09:00PM",
+        "pay": "$45/hr",
+        "type": "Critical Care General"
+      },
+      {
+        "shiftId": "8",
+        "name": "shift8",
+        "hospital_id": "0",
+        "shift_type": "1",
+        "date": "25 Nov 2021",
+        "time": "11:00AM - 10:00PM",
+        "pay": "$52.25/hr",
+        "type": "Critical Care General"
+      },
+      {
+        "shiftId": "9",
+        "name": "shift9",
+        "hospital_id": "0",
+        "shift_type": "1",
+        "date": "26 Nov 2021",
+        "time": "09:00AM - 09:00PM",
+        "pay": "$45/hr",
+        "type": "Critical Care General"
+      },
+      {
+        "shiftId": "10",
+        "name": "shift10",
+        "hospital_id": "0",
+        "shift_type": "1",
+        "date": "29 Nov 2021",
+        "time": "10:00AM - 10:00PM",
+        "pay": "$30.25/hr",
+        "type": "Critical Care General"
+      },
+      {
+        "shiftId": "11",
+        "name": "shift11",
+        "hospital_id": "1",
+        "shift_type": "1",
+        "date": "30 Nov 2021",
+        "time": "10:00AM - 10:00PM",
+        "pay": "$50/hr",
+        "type": "Critical Care General"
+      },
+      {
+        "shiftId": "12",
+        "name": "shift12",
+        "hospital_id": "0",
+        "shift_type": "1",
+        "date": "21 Nov 2021",
+        "time": "5:00AM - 5:00PM",
+        "pay": "$70/hr",
+        "type": "Critical Care General"
+      },
+      {
+        "shiftId": "13",
+        "name": "shift13",
+        "hospital_id": "1",
+        "shift_type": "1",
+        "date": "22 Nov 2021",
+        "time": "10:00PM - 12:00PM",
+        "pay": "$33/hr",
+        "type": "Critical Care General"
+      }
+  ]
+}

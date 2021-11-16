@@ -1,0 +1,132 @@
+@import "../../styles/variable.scss";
+
+
+
+.checkUserInvitation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bolder;
+    text-transform: capitalize;
+
+    .reminder {
+        margin: 10px 0
+    }
+}
+
+.styledBtn {
+    background-color: $GreenColor;
+    color: $primaryBlueColor;
+    border: none;
+    margin: 5px;
+    padding: 5px 10px;
+    box-shadow: 5px 6px #888888;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+
+.CardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    font-size: 17px;
+    width: 80%;
+
+
+
+    .InviteTimeCard {
+        display: flex;
+        flex-direction: column;
+        min-height: 150px;
+        width: 280px;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: white;
+        margin: 10px 0 10px 20px;
+        padding: 10px;
+        padding-right: 50px;
+        border-left: 8px solid $GreenColor;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+
+
+        .date {
+            display: flex;
+            font-weight: 500;
+            margin-bottom: 5px;
+
+            .weekday {
+                margin-right: 5px;
+            }
+
+            .icon {
+                margin-left: 5px;
+            }
+        }
+        .time,.type{
+            font-weight: 300;
+
+        }
+
+        .pay {
+            font-weight: 500;
+            margin-top: 10px;
+            letter-spacing: 1px;
+        }
+
+    }
+
+
+
+    .hospitalCard {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 150px;
+        width: 490px;
+        background-color: white;
+        margin: 10px 20px 10px 5px;
+        padding: 10px 20px;
+
+        .hospitalText {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .hospitalName {
+                text-transform: capitalize;
+                font-weight: 600;
+            }
+
+        }
+
+        .btn {
+            color: white;
+            background-color: $primaryBlueColor;
+            padding: 5px 15px;
+            margin-right: 20px;
+            font-weight: 700;
+
+            &--decline {
+                color: $primaryBlueColor;
+                background-color: white;
+                border: $primaryBlueColor 2px solid;
+                padding: 3px 5px;
+                margin-right: -75px;
+
+            }
+        }
+        .hospitalRate {
+            display: flex;
+        }
+
+
+
+
+    }
+
+}
